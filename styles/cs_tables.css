@@ -1,0 +1,31 @@
+﻿table {
+    font-family: arial, sans-serif;
+    float: initial;
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    border: 1.5px solid rgba(255,204,0, 0.3);
+    border-collapse: collapse;
+    background-color: #11122b;
+    color: goldenrod;
+}
+
+td {
+    color: darkblue;
+    border: 1.5px solid #11122b;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(173, 173, 173, 0.8);
+}
+tr:nth-child(odd) {
+    background-color: rgba(244,196,48, 0.8);
+}
+

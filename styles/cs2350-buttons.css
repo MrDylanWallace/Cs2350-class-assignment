@@ -1,0 +1,80 @@
+.btn_white{
+    background-color: snow;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid snow;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.2s;
+    margin: 0 10px;
+}
+.btn_gold {
+    background-color: goldenrod;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.2s;
+    margin: 0 10px;
+}
+.btn-primary {
+    background-color: goldenrod;
+    color: #11122b;
+    font-size: 0.7em;
+    padding: 10px 25px;
+    font-weight: 600;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.2s;
+    margin-left: 5%;
+    width: -webkit-fill-available;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.btn-primary:hover {
+    background-color: gray; 
+    color:white; 
+    float: center; 
+    border-color: gray;
+}
+
+
+.btn_gold:active, .btn_white:active, .btn-primary:active{
+    box-shadow: 5px 5px 30px rgba(255, 255, 255, 0.4);
+}
+
+.centerd-btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* image color */
+/* filter: brightness(50%); */
+    /* opacity: 0.5; */
+
+/* buttons */
+.button {
+    text-decoration: center;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.button:hover { 
+background-color: #ffffff; 
+color:black; 
+float: center; 
+}
+
+.button {
+    background-color: rgb(20, 69, 214);
+    color: white;
+    float: center;
+}
+.button {
+    border-radius: 100%;
+}

@@ -1,0 +1,227 @@
+﻿/* Header/logo Title */
+.header {
+    padding: 10px;
+    background-color: goldenrod;
+    color: black;
+    display: flex;
+}
+    .header > .search_bar-a05{
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 30px;
+        text-decoration: none;
+        border-left-style: solid;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 16px;
+    }
+    .header > i{
+        font-size: 2rem;
+        margin: auto;
+    }
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    justify-content:center;
+    background-color: #11122b;
+}
+
+    /* Style the navigation bar links */
+    .navbar a {
+        height: 90%;
+        color: white;
+        padding: 14px 15px;
+        text-decoration: none;
+        font-size:0.8em;
+        text-align: center;
+        transition: 1s;
+    }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: gold;
+            color: black;
+        }
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.content {
+    flex: 10%;
+    display: flex;
+    padding: 20px;
+    color:goldenrod;
+}
+.content_text {
+    color: goldenrod;
+}
+    .content_text > h2 {
+        font-size: 1.3em;
+        color: white;
+        margin: 0;
+    }
+    .content_text > h5 {
+        font-size: 0.6em;
+        color: snow;
+        margin: 0;
+    }
+    .content_text > p{
+        font-size: 0.6em;
+        color: white;
+        margin:0;
+    }
+    .content_text > .buttom-a05{
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+    }
+hr{
+    margin: 0 2%;
+}
+/* Main column */
+.main {
+    flex: 60%;
+    color: snow;
+    width:100%;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    justify-content: center;
+    background-color: #aaa;
+    padding: 20px;
+    height: 100px;
+    width: 800px;
+    margin: auto 2%;
+    background-size: cover;
+}
+
+.cs-copyright-crap {
+    background-color: black;
+}
+
+    .cs-copyright-crap > ul {
+        list-style-type: none;
+        margin: 0 10%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+        .cs-copyright-crap > ul > li {
+            float: left;
+        }
+
+            .cs-copyright-crap > ul > li:last-child {
+                border-right: none;
+                float: right;
+            }
+
+            .cs-copyright-crap > ul > li > a {
+                display: block;
+                color: #c0c0c0;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                transition: 1s;
+            }
+
+            .cs-copyright-crap > ul > li > .copyright {
+                width: max-content;
+                color: goldenrod;
+                padding: 14px 16px;
+            }
+.prev_next-a05{
+    margin: auto;
+    width: 50%;
+    display: flex;
+}
+
+    .prev_next-a05 > .buttom-prev{
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 16px;
+        float: left;
+    }
+    .prev_next-a05 > .buttom-next{
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 16px;
+        float: right;
+    }
+    .prev_next-a05 > .page_number{
+        padding: 5px;
+    }
+    .prev_next-a05 > .page_number > p{
+        padding: 5px;
+    }
+    #phone-copy-a05{
+        float: right;
+    }
+/* Responsive layout - when the screen is more than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 800px) {
+    i{
+        visibility: hidden;
+        padding: 0 14%;
+    }
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+    .side{
+        display:none;
+    }
+    .search_bar-a05{
+        display: none;
+    }
+    .fakeimg {
+        width: 90%;
+    }
+    .content{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    #phone-a05{
+        display: none;
+    }
+    .copyright{
+        align-items: center;
+    }
+    #phone-copy-a05{
+        float: none;
+    }
+    .buttom-a05{
+        visibility: hidden;
+    }
+    i{
+        padding: 4%;
+    }
+}

@@ -1,0 +1,10 @@
+﻿.table-multi-12x12 {
+    color: snow;
+    width: 90%;
+    margin: auto;
+}
+.table-bordered{
+    border-collapse: collapse;
+    width: auto;
+    margin: auto;
+}

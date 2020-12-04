@@ -1,0 +1,45 @@
+.btn{
+    background-color: rgb(255, 196, 0);
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(255, 196, 0);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.2s;
+}
+.btn:active{
+    box-shadow: 5px 5px 30px rgba(255, 255, 255, 0.4);
+}
+
+.centerd-btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* image color */
+/* filter: brightness(50%); */
+    /* opacity: 0.5; */
+
+/* buttons */
+.button {
+    text-decoration: center;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.button:hover { 
+background-color: #ffffff; 
+color:black; 
+float: center; 
+}
+
+.button {
+    background-color: rgb(20, 69, 214);
+    color: white;
+    float: center;
+}
+.button {
+    border-radius: 100%;
+}

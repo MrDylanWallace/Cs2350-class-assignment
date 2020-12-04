@@ -1,0 +1,80 @@
+/* footer stlyes */
+.footer {
+    
+    border-top: 3px solid gray;
+    background-color: #11122b;
+    color: white;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -4px;
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.footer > .footer-phone-hours >.logo-footer {
+    float: left;
+}
+
+.footer > .footer-phone-hours >.logo-footer img{
+    width: 100px;
+    height: 100%;    
+    filter: brightness(75%);
+}
+
+.footer > .footer-phone-hours span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-family: 'Cinzel', serif;
+}
+.footer > .footer-phone-hours > p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-family: 'Cinzel', serif;
+}
+.footer > .footer-phone-hours > .hours{
+    color: gold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper{
+    width: 95%;
+}
+.footer > .links-wrapper > .nav-link{
+    border-top: 1px solid transparent;
+    width: auto;
+    text-align: center;
+}
+.footer > .social-mdia-icons-wrappers {
+margin-top: 20px;
+margin-bottom: 40px;
+width: 300px;
+display:  flex;
+justify-content:  space-around;
+transition: 0.5s;
+}
+
+.footer > .social-mdia-icons-wrappers a{
+    color: white;
+    font-size: 1.5em;   
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+}
+
+.footer > .social-mdia-icons-wrappers a:hover{
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+.footer > .copyright-wrapper{ 
+    color: gray;
+    margin-bottom: 42px;
+    font-size: 0.7em;
+}

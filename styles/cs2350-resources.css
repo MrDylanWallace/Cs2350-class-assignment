@@ -1,0 +1,113 @@
+/* font-family: 'Amiri', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Crimson Text', serif; */
+
+
+/* Hero section styles */
+.hero-section{
+    background-image: url(../images/CS2350/blueprint.jpg);
+    filter: grayscale(75%);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    border-bottom: 3px solid gray;
+}
+.hero-section > .top-heading{
+    border-radius: 2px;
+    color: whitesmoke; 
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    width: 300px;
+    padding: 1px 20px;
+    justify-content: center;
+}
+.hero-section > .bottom-heading{
+    font-family: 'Cinzel', serif;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: rgba(218, 165, 32, 0.5);
+    margin-top: 15px;
+    width: 150px; 
+    padding: 1px 20px;
+}
+.hero-section > .bottom-heading > a{
+    width: auto;
+    padding-left: 2%;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.hero-section > .bottom-heading > a:hover{
+    color: rgb(255, 244, 183);
+    letter-spacing: 1.5px;
+    font-size: 1.01em;
+}
+
+/* Features section styles */
+.features-section{
+    height: 450px;
+    background-image: url(../images/CS2350/bb13e9ec7bb238a10eee952d531376bc.png);
+    filter: grayscale(50%);
+    background-color:rgb(23, 25, 46);
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    color: black;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow:  inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+    /* rgba(red, green, blue, alpha) */
+}
+
+.features-section > .columns-wrapper {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding:  10px;
+    margin: 25px;
+    text-align:  center;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+    transition: 0.8s;
+    color: rgb(121, 121, 121);
+}
+    .features-section > .columns-wrapper > .column > p{
+        padding: 15px 0px;
+        width: auto;
+    }
+.features-section > .columns-wrapper > .column:hover{
+    border-bottom: 2px solid goldenrod;
+    color: goldenrod;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1){
+    font-size: 3em;
+    margin: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2){
+    font-size: 1.5em;
+    font-weight: 900;
+    height:  50px;
+    translate: 0.8s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover{
+    letter-spacing: 0.5px;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3){
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    font-weight: 600;
+}

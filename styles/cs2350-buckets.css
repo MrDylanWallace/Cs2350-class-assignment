@@ -1,0 +1,93 @@
+﻿img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+iframe {
+    display: block;
+    border: 0;
+    margin: auto;
+    padding: 4%;
+	background-color: #191919;
+    width: -webkit-fill-available;
+    height: 600px;
+}
+
+
+.buckets {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2em 1em 1em;
+	width: fit-content;
+	text-decoration: none;
+    color: lightgray;
+    background-color: black;
+}
+
+.buckets > ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+.buckets > ul > li {
+	border-bottom: 3px solid gray;
+	border-radius: 5px;
+	margin-bottom: 1em;
+	text-decoration: none;
+	height: 50%;
+	background: #01021d;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.buckets > ul > li > iframe {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: 300px;    
+	padding: 0;
+}
+
+.bucket-title{
+    font-size: 1.1em;
+}
+.bucket > h5{
+    width: 80%;
+    margin: auto;
+    font-size: 0.8em;
+}
+.bucket {
+	padding: 1.5em;
+}
+
+.bucket > a{
+	margin: 10%;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: goldenrod;
+}
+
+@media screen and (min-width: 700px) {
+	@supports (display: flex) {
+
+		.buckets > ul {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.buckets > ul > li {
+			width: 31%;
+		}
+
+	}
+}
+
+
+@media screen and (min-width: 600px) {
+	@supports (display: grid) {
+		.buckets > ul {
+			grid-column: 2/4;
+		}
+	}
+}

@@ -1,0 +1,158 @@
+/* 
+font-family: 'Amiri', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Crimson Text', serif; 
+*/
+
+
+/* Common styles */
+body{
+    margin: 0px;
+}
+
+
+/* set body */
+h1, h3, h5{
+    font-family: 'Cinzel', serif;
+}
+
+
+h2, h4, h6{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+p {
+    font-family: Verdana, serif;
+    line-height: 1.8;
+}
+
+
+li {
+    font-family: 'Amiri', serif;
+    color: white;
+    font-weight: 550;
+    justify-content: right;
+    text-align: justify;
+}
+
+
+header {
+    font-size: 350%;
+    text-align: center;
+    color: goldenrod;
+    font-family:'Franklin Gothic';
+}
+header > h2{
+    font-size: 60%;
+    text-align: center;
+    color: goldenrod;
+    font-family:'Franklin Gothic';
+    margin: 5px;
+}
+header > h4{
+    font-size: 50%;
+    text-align: center;
+    color: goldenrod;
+    font-family:'Franklin Gothic';
+    margin: 5px;
+}
+header > .under_header{
+    font-size: 40%;
+    text-align: center;
+    color: rgba(70, 70, 70, 0.9);
+    font-family: 'Cinzel', serif;}
+
+hr{
+    color:goldenrod;
+}
+
+aside {
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(80, 80, 80);
+}
+
+
+section > p {
+    color: goldenrod;
+    text-align: justify;
+    text-indent: 50px;
+}
+section > h1 {
+    text-align: center;
+    color: goldenrod;
+}
+section > h2 {
+    text-align: center;
+    color: beige;
+}
+section > h3 {
+    font-family:'Cambria Math';
+    color: goldenrod;
+}
+
+
+article, section {
+    margin: auto;
+    height: auto;
+    width: 85%;
+    text-align: center;
+    background-color: rgb(40, 40, 40)
+}
+
+
+article > p {
+    color: goldenrod;
+    text-align: justify;
+    text-indent: 50px;
+}
+article > a {
+    text-decoration: none;
+    color: snow;
+
+}
+article > h2 {
+    text-align: left;
+    color: beige; 
+    font-size: 1.2em;
+}
+
+.article_2, .section_2 {
+    margin: auto;
+    height: auto;
+    width: 97%;
+    text-align: center;
+    background-color: rgb(40, 40, 40)
+}
+.article_2 > ol > li {
+   font-size: .90em;
+    color:snow;
+    text-align: left;
+    text-indent: 20px;
+}
+.article_2 > h3 {
+    text-align: left;
+    color: snow;
+    font-size:1.17em;
+}
+.article_2 > h4 {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+
+.background_color_gray {
+    margin: auto;
+    width: 75%;
+    height:100%;
+    background-color: rgb(40, 40, 40);
+    padding-top: 200px;
+}
+

@@ -1,0 +1,212 @@
+﻿
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+  }
+  .fa-times {
+    font-size: 2em;
+    position: fixed;
+    padding: 15px; 
+    color: #555555;
+  }
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: transparent;
+    background-color: transparent;
+    position: fixed;
+    border-color: transparent;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: goldenrod;
+    text-decoration: none;
+    cursor: pointer;
+  }
+    .modal-content image{
+      margin: 0%;
+    height: 250px;
+  }
+
+  .modal-header {
+    padding: 1px 5%;
+    background-color: #2F2F2F;
+  }
+  
+  .modal-header > .modal-title{
+    height: auto;    
+    color: goldenrod;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  .modal-header > .modal-madeby-name{
+    height: auto;
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 0;
+    font-weight: 100;
+  }
+  .modal-body {
+
+      background-color: #2F2F2F;
+      color: snow;
+      padding: 2px 8%;
+    }
+
+    .modal-body > .common_data > .data-important_title_subject {
+        color: goldenrod;
+        font-family: 'Cinzel', serif;
+        font-size: 125%;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .modal-body > .common_data > .data-title_subject {
+        color: goldenrod;
+        font-family: 'Cinzel', serif;
+        font-size: 100%;
+        font-weight: bold;
+        padding-top:2%;
+    }
+
+    .modal-body > .common_data > .data-content {
+        color: snow;
+        font-size: 90%;
+        text-indent: 3%;
+    }
+        .modal-body > .common_data > .fixed-size_container{
+            height:30px;
+            width:550px;
+            background:black;
+            text-align:center;
+            margin: auto;
+            color: goldenrod;
+        }
+        .modal-body > .common_data > .data-content > table {
+            width: 100%;
+            border-collapse: collapse;
+            color: goldenrod;
+        }
+
+        .modal-body > .common_data > .data-content > table > tr, th, td {
+                border-collapse: collapse;
+                padding: 5px;
+            }
+
+    .modal-body >.common_data > .data-content > .data-content_columns-03 {
+        column-count: 3;
+    }
+    .modal-body > .common_data > .data-content > .data-content_columns-03 > b {
+            font-size: 1.35em !important;
+            text-align: left;
+            line-height: 2;
+        }
+
+        .modal-body >.common_data > .data-important_content > table {
+        width: 100%;
+        border-bottom: 1px solid goldenrod;
+        border-collapse: collapse;
+    }
+
+    .modal-body >.common_data > .data-important_content > table > tr, th, td {
+            border-color: goldenrod;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+
+        .modal-body >.common_data > .data-important_content {
+        color: snow;
+        font-size: 90%;
+    }
+
+    .modal-body >.common_data > .data-important_content > ul {
+            color: darkgoldenrod;
+            padding-left: 5%;
+        }
+
+        .modal-body >.common_data > .data-important_content > ul > li {
+                color: snow;
+            }
+
+            .modal-body > .common_data > .data-important_content > img {
+            float: left;
+            width: 13%;
+        }
+        
+         dl {
+            text-align: left;
+            color: khaki;
+        }
+         dl > dt {
+                text-indent: 10%;
+                text-align: justify;
+                color: seashell;
+            }
+             dl > dt > a {
+                    color: snow;
+                    text-decoration: none;
+                    transition: 0.5s;
+                }
+                dl > dt > a:hover {
+                        color: gold;
+                        letter-spacing: 1px;
+                        font-size: 1em;
+                    }
+                 dl > dd {
+                text-align: left;
+                margin: 0 15%;
+                color: #c0c0c0;
+            }
+             dl > dd > ul{
+                text-align: inherit;
+                font-size: 0.8em;
+                margin: 0 15%;
+                text-indent: 0;
+                color: goldenrod;
+            }
+  
+  .modal-footer {
+    padding: 2px 16px;        
+    background-color:#2F2F2F;
+    color: goldenrod;
+  }

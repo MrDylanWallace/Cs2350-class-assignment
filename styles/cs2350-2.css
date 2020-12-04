@@ -1,0 +1,246 @@
+﻿.cs-container-nav {
+}
+
+    .cs-container-nav > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #11122b;
+    }
+
+        .cs-container-nav > ul > li {
+            float: left;
+        }
+
+cs-container-nav > ul > li:last-child {
+    border-right: none;
+    float: right;
+}
+.background_color_black {
+    margin: auto;
+    height: 100%;
+    background-color: black;
+    padding: 12px;
+    padding-bottom: 30px;
+}
+
+.cs-container-nav > ul > li > a {
+    display: block;
+    color: #c0c0c0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+    .cs-container-nav > ul > li > a:hover:not(.active) {
+        background-size: inherit;
+        background-color: darkgoldenrod;
+        color: black;
+    }
+
+.cs-container-nav > ul > li > .active {
+    color: goldenrod;
+}
+
+.cs-container-nav > ul > li > .log-out {
+    margin: 10%;
+    margin-right: 20px;
+    width: max-content;
+    font-size: 0.8em;
+    padding: 8px 10px;
+    background-color: maroon;
+}
+
+
+.cs-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2%;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+    .cs-grid > .cs-grid-title {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        color: goldenrod;
+        font-size: 1em;
+    }
+
+    .cs-grid > .cs-grid-head {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding-bottom: 5%;
+        display: flex;
+        border-bottom: solid 1px gold;
+    }
+
+        .cs-grid > .cs-grid-head > .cs-header {
+            justify-content: left;
+            width: 50%;
+        }
+
+            .cs-grid > .cs-grid-head > .cs-header > h1 {
+                padding-bottom: 2%;
+                color: goldenrod;
+                font-size: 1.3em;
+            }
+
+            .cs-grid > .cs-grid-head > .cs-header > p {
+                padding-bottom: 2%;
+                color: snow;
+                font-size: 0.6em;
+            }
+
+        .cs-grid > .cs-grid-head > img {
+            width: 55%;
+            align-self: center;
+            height: 10%;
+            float: right;
+        }
+
+        .cs-grid > .cs-grid-head > .cs-header > a {
+            background-color: #11122b;
+            color: snow;
+            font-size: 0.8em;
+            justify-content: left;
+            margin-left: 5%;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+    .cs-grid > .cs-grid-content {
+        padding: 5%;
+        height: 250px;
+        overflow: hidden;
+        border: solid 1px gold;
+    }
+
+        .cs-grid > .cs-grid-content > .img-0001 {
+            background-image: url(../images/CS2350/Tree.gif);
+            width: 95%;
+            height: 70%;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: auto;
+            filter: brightness(50%);
+        }
+
+        .cs-grid > .cs-grid-content > .img-0002 {
+            background-image: url(../images/CS2350/1510261826796.gif);
+            width: 95%;
+            height: 70%;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: auto;
+            filter: brightness(50%);
+        }
+
+        .cs-grid > .cs-grid-content > .img-0003 {
+            background-image: url(../images/CS2350/4748.168793.gif);
+            width: 95%;
+            height: 70%;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: auto;
+            filter: brightness(50%);
+        }
+
+        .cs-grid > .cs-grid-content > h3 {
+            padding: 1%;
+            padding-top: inherit;
+            margin: auto;
+            width: 95%;
+            text-align: left;
+            color: goldenrod;
+            font-size: 0.8em;
+        }
+
+        .cs-grid > .cs-grid-content > p {
+            color: dimgray;
+            margin: auto;
+            width: 95%;
+            font-size: 0.6em;
+        }
+
+.load-more {
+    display: block;
+    background-color: #11122b;
+    color: snow;
+    font-size: 1em;
+    justify-content: left;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 1%;
+    padding: 1% 0;
+}
+
+.cs-container-content-nav {
+    background-color: #11122b;
+}
+
+    .cs-container-content-nav > table {
+        width: 100%;
+        padding: 0 5%;
+        border: none;
+        justify-content: left;
+        background-color: none;
+    }
+
+        .cs-container-content-nav > table > tr, td, th {
+            text-align: left;
+        }
+
+        .cs-container-content-nav > table > tbody > tr > th {
+            color: goldenrod;
+            font-size: 1em;
+        }
+
+        .cs-container-content-nav > table > tbody > tr > td {
+            color: snow;
+            text-indent: 7%;
+            font-size: 0.7em;
+        }
+
+.cs-copyright-crap {
+    background-color: black;
+}
+
+    .cs-copyright-crap > ul {
+        list-style-type: none;
+        margin: 0 10%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+        .cs-copyright-crap > ul > li {
+            float: left;
+        }
+
+            .cs-copyright-crap > ul > li:last-child {
+                border-right: none;
+                float: right;
+            }
+
+            .cs-copyright-crap > ul > li > a {
+                display: block;
+                color: #c0c0c0;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                transition: 1s;
+            }
+
+            .cs-copyright-crap > ul > li > .copyright {
+                width: max-content;
+                color: goldenrod;
+                padding: 14px 16px;
+            }
+

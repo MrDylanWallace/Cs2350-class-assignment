@@ -1,0 +1,285 @@
+﻿/* Square grid styles */
+.cs-square_data_wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+    .cs-square_data_wrapper > .squares {
+        width: 1000px;
+        background-color: #373333;
+    }
+
+        .cs-square_data_wrapper > .squares > .square {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: -4px;
+        }
+
+.square > .img-wrapper img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.square > .square-text-wrapper h1 {
+    color: goldenrod;
+}
+
+.square > .square-text-wrapper p {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.square > .square-text-wrapper ul:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+.background_color_golden {
+    margin: auto;
+    height: 100%;
+    background-color: goldenrod;
+    margin-top: 5px;
+    padding: 12px;
+    padding-bottom: 30px;
+}
+
+.background_color_black {
+    margin: auto;
+    height: 100%;
+    background-color: black;
+    padding: 12px;
+    padding-bottom: 30px;
+}
+
+
+.common_data {
+    padding-left: 7%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 86%;
+}
+
+    .common_data > .data-important_title_subject {
+        color: goldenrod;
+        font-family: 'Cinzel', serif;
+        font-size: 125%;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .common_data > .data-title_subject {
+        color: goldenrod;
+        font-family: 'Cinzel', serif;
+        font-size: 100%;
+        font-weight: bold;
+        padding-top:2%;
+    }
+
+    .common_data > .data-content {
+        color: snow;
+        font-size: 90%;
+        text-indent: 3%;
+    }
+        .common_data > .img-0001 {
+            background-image: url(../images/CS2350/the_thing_gif.gif);
+            width: 100%;
+            height: 75px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .common_data > .img-0002 {
+            background-image: url(../images/CS2350/tumblr_nmvrs6ubl71qze3hdo1_r1_500.gif);
+            width: 100%;
+            height: 75px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .common_data > .fixed-size_container{
+            height:30px;
+            width:550px;
+            background:black;
+            text-align:center;
+            margin: auto;
+            color: goldenrod;
+        }
+        .common_data > .data-content > table {
+            width: 100%;
+            border-collapse: collapse;
+            color: goldenrod;
+        }
+
+            .common_data > .data-content > table > tr, th, td {
+                border-collapse: collapse;
+                padding: 5px;
+            }
+
+    .common_data > .data-content > .data-content_columns-03 {
+        column-count: 3;
+    }
+        .common_data > .data-content > .data-content_columns-03 > b {
+            font-size: 1.35em !important;
+            text-align: left;
+            line-height: 2;
+        }
+
+    .common_data > .data-important_content > table {
+        width: 100%;
+        border-bottom: 1px solid goldenrod;
+        border-collapse: collapse;
+    }
+
+        .common_data > .data-important_content > table > tr, th, td {
+            border-color: goldenrod;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+
+    .common_data > .data-important_content {
+        color: snow;
+        font-size: 90%;
+    }
+
+        .common_data > .data-important_content > ul {
+            color: darkgoldenrod;
+            padding-left: 5%;
+        }
+
+            .common_data > .data-important_content > ul > li {
+                color: snow;
+            }
+
+        .common_data > .data-important_content > img {
+            float: left;
+            width: 13%;
+        }
+
+/* Example
+<div class="common_data">  
+    <div class="data-important_title_subject">
+        LEARNING RESOURCES
+    </div>
+    <div class="data-title_subject">
+        CONTACT INFORMATION
+    </div>
+    <div class="data-important_content">
+    
+    </div>
+    <div class="data-content">
+        Email: dylanwallace@mail.weber.edu
+    </div>
+    <div class="data-content">
+        Phone: 385-333-5583
+    </div>
+</div>
+*/
+.container-big_data {
+    padding-left: 7%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 86%;
+    padding-bottom: 10%;
+}
+
+    .container-big_data > .big_data-important_title_subject {
+        color: goldenrod;
+        font-family: 'Cinzel', serif;
+        font-size: 125%;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .container-big_data > .big_data-title_subject {
+        color: goldenrod;
+        font-family: 'Cinzel', serif;
+        font-size: 150%;
+        font-weight: bold;
+        padding-top: 5%;
+    }
+
+    .container-big_data > .big_data-content {
+        color: snow;
+        font-size: 90%;
+        text-indent: 3%;
+    }
+
+    .container-big_data > .big_data-important_content {
+        color: snow;
+        font-size: 90%;
+    }
+    .container-big_data > .big_data-with_side_data {
+        
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+        .container-big_data > .big_data-with_side_data > .big_data-content {
+            color: snow;
+            font-size: 90%;
+            text-indent: 3%;
+            float: right;
+        }
+        .container-big_data > .big_data-with_side_data > .big_data-fancy_data{
+            background-color: goldenrod;
+            padding: 15px;
+            width:225px;
+        }
+            .container-big_data > .big_data-with_side_data > .big_data-fancy_data > h6 {
+                text-align: left;
+                font-size: 85%;
+                color: rgba(51, 51, 51, 0.80);
+                margin: 5px;
+            }
+            .container-big_data > .big_data-with_side_data > .big_data-fancy_data > h1 {
+                color: palegoldenrod;
+                font-size: 175%;
+                margin:auto;
+                text-align: right;
+            }
+            .container-big_data > .big_data-with_side_data > .big_data-fancy_data > p {
+                text-align: center;
+                font-size: 50%;
+                color: dimgray;
+            }
+        .container-big_data > .big_data-with_side_data > .big_data-content > hr {
+            width: 100%;
+        }
+        .container-big_data > .big_data-with_side_data > .big_data-content > p {
+            width: 95%;
+            height: auto;
+            font-size: 90%;
+            text-align: center;
+            font-family: 'Times New Roman';
+            margin: auto;
+            padding-top:20px;
+        }
+        .container-big_data > .big_data-with_side_data > .big_data-content > h3 {
+            height: auto;
+            width: 90%;
+            font-size: 100%;
+            text-align: right;
+            font-family: 'Times New Roman';
+            margin: auto;
+            padding-bottom: 20px;
+        }

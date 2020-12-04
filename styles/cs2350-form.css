@@ -1,0 +1,113 @@
+form {
+    width: 90%;
+    margin-bottom: 5%;
+}
+    form > p {
+        font-size: 1.5rem;
+        font-family: inherit;
+        border: none;
+        border-bottom: 3px solid #11122b;
+        color: white;
+    }
+    form > input {
+        font-size: 1.5rem;
+        font-family: inherit;
+        border: none;
+        border-bottom: 3px solid #11122b;
+        color: white;
+    }
+    form > label {
+        font-size: 1rem;
+        color: white;
+    }
+    form > label > b {
+        color: goldenrod;
+    }
+
+.form > .form-group {
+    margin-top: -1%;
+}
+
+.form > .form-group > input{
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    color: white;
+    background-color:  rgb(102, 102, 102);
+    width: 85%;
+    display: block;
+    transition: all 0.3s;
+}
+
+    .form > .form-group > input:focus {
+        outline: none;
+        box-shadow: 0 2rem 2rem rgba(255, 255, 255, 0.1);
+        border-bottom: 3px solid rgb(255, 187, 0);
+    }
+
+.form > .form-group > select{
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    color: white;
+    background-color:  rgb(102, 102, 102);
+    width: 70%;
+    display: block;
+    transition: all 0.5s;
+}
+    .form > .form-group > select:focus {
+        outline: none;
+        box-shadow: 0 2rem 2rem rgba(255, 255, 255, 0.1);
+        border-bottom: 3px solid rgb(255, 187, 0);
+    }
+    .form > .form-group > textarea {
+        color: white;
+        background-color: rgb(102, 102, 102);
+        margin-top: 20px;
+        width: 90%;
+        height: 250px;
+        border-radius: 3px;
+        border: 3px solid #11122b;
+        font-size: 1.5rem;
+        font-family: inherit;
+        color: inherit;
+        padding: 1.5rem;
+        transition: all 0.3s;
+    }
+        .form > .form-group > textarea:focus {
+            outline: none;
+            box-shadow: 0 2rem 2rem rgba(255, 255, 255, 0.1);
+            border: 3px solid rgb(255, 187, 0);
+        }
+        .form > .form-group > input::-webkit-input-placeholder, .form > .form-group > textarea::-webkit-input-placeholder {
+            color: white;
+        }
+    .form > .form-group > input:focus::-webkit-input-placeholder, .form > .form-group > textarea:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    .form > .form-group > label {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 2rem;
+        margin-top: 0.7rem;
+        display: block;
+        transition: all 0.3s;
+        color: rgb(255, 187, 0);
+        visibility: hidden;
+        opacity: 0;
+    }
+
+.form > input:focus + label, .form > textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}

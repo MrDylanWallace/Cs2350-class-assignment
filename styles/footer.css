@@ -1,0 +1,67 @@
+/* footer stlyes */
+.footer {
+    background-color: #11122b;
+    color: white;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    margin-top: -4px;
+
+}
+
+
+.footer > .logo-footer img{
+    width: 120px;
+    height: 100%;    
+    filter: brightness(75%);
+}
+
+.footer > .footer-phone-hours span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-family: 'Cinzel', serif;
+}
+
+.footer > .footer-phone-hours > .hours{
+    color: gold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 85%;
+}
+
+.footer > .social-mdia-icons-wrappers {
+margin-top: 20px;
+margin-bottom: 40px;
+width: 300px;
+display:  flex;
+justify-content:  space-around;
+transition: 0.5s;
+}
+
+.footer > .social-mdia-icons-wrappers a{
+    color: white;
+    font-size: 2em;   
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+}
+
+.footer > .social-mdia-icons-wrappers a:hover{
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+.footer > .copyright-wrapper{ 
+    color: gray;
+    margin-bottom: 42px;
+    font-size: 0.7em;
+}

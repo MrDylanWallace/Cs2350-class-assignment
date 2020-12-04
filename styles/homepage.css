@@ -1,0 +1,90 @@
+/* font-family: 'Amiri', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Crimson Text', serif; */
+
+
+/* Hero section styles */
+.hero-section{
+    background-image: url(../images/BackDrop/2d44e965dff94b7aa7a51fb42f25faf8.gif);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section > .top-heading{
+    border-radius: 2px;
+    color: whitesmoke; 
+    background-color: #11122b;
+    width: 290px;
+    padding: 1px 20px;
+}
+.hero-section > .bottom-heading{
+    font-family: 'Cinzel', serif;
+    border-radius: 2px;
+    color: #11122b;
+    background-color: goldenrod;
+    margin-top: 15px;
+    width: 150px; 
+    padding: 1px 20px;
+}
+
+/* Features section styles */
+.features-section{
+    height: 400px;
+    background-image: url(../images/BackDrop/Picture-small.png);
+    /* filter: grayscale(100%); */
+    background-color:rgb(23, 25, 46);
+    border-top: 3px solid gray;
+    color: black;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    box-shadow:  inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+    /* rgba(red, green, blue, alpha) */
+}
+
+.features-section > .columns-wrapper {
+    width:  1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding:  10px;
+    margin: 20px;
+    text-align:  center;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+    transition: 0.8s;
+    color: rgb(121, 121, 121);
+}
+
+.features-section > .columns-wrapper > .column:hover{
+    border-bottom: 2px solid goldenrod;
+    color: goldenrod;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1){
+    font-size: 3em;
+    margin: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2){
+    font-size: 1.5em;
+    font-weight: 900;
+    height:  50px;
+    translate: 0.8s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover{
+    letter-spacing: 0.5px;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3){
+    letter-spacing: 1px;
+    font-weight: 600;
+}

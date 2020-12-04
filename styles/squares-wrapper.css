@@ -1,0 +1,45 @@
+/* Square grid styles */
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+    background-color: #373333;
+}
+.squares-wrapper > .squares > .square{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.square > .img-wrapper img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.square > .square-text-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+.square > .square-text-wrapper h1{
+    color: goldenrod;
+}
+.square > .square-text-wrapper p {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.square > .square-text-wrapper ul:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}

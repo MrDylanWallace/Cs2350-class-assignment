@@ -1,0 +1,26 @@
+﻿table {
+    font-family: arial, sans-serif;
+    float: initial;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th {
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#t01 tr:nth-child(even) {
+    background-color: #ffe342;
+}
+
+#t01 tr:nth-child(odd) {
+    background-color: #ffeb7a;
+}
+
+#t01 th {
+    background-color: #212121;
+    color: white;
+}
