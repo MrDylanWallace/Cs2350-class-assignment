@@ -156,3 +156,8 @@ article > h2 {
     padding-top: 200px;
 }
 
+.center-items{
+    justify-content: center;
+    justify-items: center;
+    text-align-last: center;
+}
