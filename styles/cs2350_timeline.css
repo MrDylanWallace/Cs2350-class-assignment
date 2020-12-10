@@ -1,0 +1,180 @@
+﻿/* code by webdevtrick ( https://webdevtrick.com ) */
+
+.container{ 
+    background-color:rgb(20, 20, 27);
+    background-image: url(../images/CS2350/bb13e9ec7bb238a10eee952d531376bc.png) ;
+    color: #7f8c97;
+    max-width: 1224px;
+      height: 100%;
+      text-align: center;
+      border-bottom: 3px solid gray;
+      margin: 0 auto;
+      padding: 2em;
+      position: relative;
+  }
+  
+  .main-title{
+    color: #D5AD6D; /*if no support for background-clip*/
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      font-weight: 600;
+      font-size: 3em;
+      margin-bottom: .3em;
+    font-family: "Dosis";
+  }
+  
+   .timeline {
+        position: relative;
+        width: auto;
+        color: snow;
+        margin: 0 auto;
+        margin-top: 5em;
+     padding-bottom: 2em;
+     padding-left: 0;
+      }
+  
+      .timeline:before {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        content: ' ';
+        display: block;
+        width: 4px;
+        height: 100%;
+        margin-left: -3px;
+        background: #d7e4ed;
+        z-index: 0;
+      }
+  
+  
+      .dir-l, .dir-r{ 
+          position: relative; 
+          width: 40%; 
+          padding: 1.5em 1em; 
+          background: rgb(31, 31, 31); 
+          box-shadow: 0 3px 0 #d7e4ed; 
+          margin-top: 0; 
+          margin-bottom: 1.5em;
+      }
+  
+  .timeline h1{
+      font-size: 1.6em;
+      color: #D5AD6D; /*if no support for background-clip*/
+      background: -webkit-linear-gradient(transparent, transparent),
+      -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+      background: -o-linear-gradient(transparent, transparent);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      width: 90%;
+    margin-top: 0;
+    font-family: "Dosis";
+  }
+  
+  .timeline p{ 
+    letter-spacing: .5px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin: .5em;
+    margin-top: 1.5em;
+    font-family: "Dosis";
+  }
+  
+  .timeline > .timeline-icon > img{
+      border-radius: 50%;
+  }
+  
+  .timeline-icon{
+      background-color: goldenrod;
+      position: absolute;
+      display: block;
+      top: 1em;
+      width: 2.5em;
+      height: 2.5em;
+      right: 0;
+      border-radius: 50%;
+      z-index: 10;
+  }
+  .timeline-icon > i{
+    color: black;
+    margin: 3.9%;
+    font-size: 3.5em;
+}
+  
+  .timeline a{
+      color: goldenrod;
+      margin-left: .3em;
+  } 
+  
+      .dir-l{ float: left; }
+  
+      .dir-l:before{
+          content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 0; 
+        height: 0; 
+        position: absolute;
+        right: -.95em;
+        top: 1em;
+          border-top: 17px solid transparent;
+          border-bottom: 17px solid transparent; 
+          border-left: 15px solid goldenrod; 
+      }
+  
+      .dir-r{ float: right; }
+  
+      .dir-r:before{
+          content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 0; 
+        height: 0; 
+        position: absolute;
+        left: -.9em;
+        top: 1em;
+          border-top: 17px solid transparent;
+          border-bottom: 17px solid transparent; 
+          border-right: 15px solid goldenrod; 
+      }
+  
+      .timeline-icon{
+          position: absolute;
+          top: -.2em;
+          width: 60px;
+          height: 60px;
+          left: 50%;
+          z-index: auto;
+          margin-left: -30px;
+          box-shadow:  0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0), 0 0 0 5px rgba(0, 0, 0, 0.15);
+      }
+  
+      .timeline-blocks{
+          display: block;
+          height: auto;
+          padding: 1em 0;
+          position: relative;
+          overflow: hidden;
+      }
+  
+      .timeline > img{
+          border-radius: 50%;
+      width: 100%;
+      }
+  
+      .timeline a{
+          color: goldenrod;
+          margin-left: .3em;
+      } 
+  
+      .timeline-blocks .date-l, .timeline-blocks .date-r{
+          position: absolute;
+          right: 58%;
+          font-size: 1.6em;
+      }
+  
+      .timeline-blocks .date-r{ left: 54%; right: auto;}
+  
+      .timeline-blocks a:hover{ color: white; }
